@@ -203,10 +203,27 @@
 			<!-- END sidebar widget item -->
 
 			<!-- image screen -->
-			<section class="imagescreen">
-				<div class="imagebackground">
-					<img src="kesaktianpancasila.jpg">
-					<img src="gubsu.jpg">
+			<section class="imagescreens">
+				<div id="imagescreen" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="blog/images/kesaktianpancasila.jpg" class="d-block w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="blog/images/gubsu.jpg" class="d-block w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="blog/images/hkn.jpg" class="d-block w-100">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
 				</div>
 				<div class="textscreen">
 					<h2>Terwujudnya Tempat Tinggal yang Sehat, Layak dan Terjangkau</h2>
@@ -216,7 +233,7 @@
 					<a href="visidanmisi.php" class="theme-btn btn-style-four"><span class="txt">Visi Misi<i class="flaticon-next-2"></i></span></a>
 				</div>
 			</section>
-			<!-- End Main Slider -->
+			<!-- image screen -->
 
 			<section class="principle-section">
 				<div class="pattern-layer-one" style="background-image: url(assets/images/background/pattern-2.png)"></div>
